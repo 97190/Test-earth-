@@ -10,8 +10,11 @@
 
 # print "#{nombre}"
 
-n = 4
+# n = 4
 
-n = n + 1
+# n = n + 1
 
-print n.even?
+# print n.even?
+
+8.even?
+9.odd?
