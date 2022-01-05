@@ -16,5 +16,14 @@
 
 # print n.even?
 
-8.even?
-9.odd?
+#
+
+# print 'Merci de renseigner vote nom : '
+# name = gets.chomp
+# print "Bonjour #{name}"
+
+print 'Entrez votre nom : '
+last_name = gets.chomp
+print 'Entrez votre prénom : '
+first_name = gets.chomp
+puts "Bonjour #{last_name} #{first_name}."
