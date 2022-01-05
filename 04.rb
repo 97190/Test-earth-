@@ -1,29 +1,38 @@
-# nombre = ()
-# paire = 2
-# impaire =  3
 
-# if ((nombre/2)*2 != nombre)
-#     impaire
-# else
-#     pair
+# print 'Entrez le premier nombre : '
+# nombre1 = gets.chomp.to_f # On convertit la saisie en décimal.
+# puts nombre1
+# print 'Entre le deuxième nombre : '
+# nombre2 = gets.chomp.to_f
+# puts "#{nombre1} + #{nombre2} = #{nombre1 + nombre2}"
+# puts "#{nombre1} - #{nombre2} = #{nombre1 - nombre2}"
+# puts "#{nombre1} / #{nombre2} = #{nombre1 / nombre2}"
+# puts "#{nombre1} * #{nombre2} = #{nombre1 * nombre2}"
+
+
+# puts "#{nombre1} * #{nombre2} = #{nombre1 * nombre2}"
+
+# print 'Donnez moi un nombre :'
+# number = gets.chomp.to_i
+# tmp = 2
+# puts "#{number} = #{number / tmp}"
+
+
+# puts 'pair'
+# puts 'impair'
+
+ def calcul (x)
+   if x % 2 == 0
+   return "#{paire}"
+   end
+ end
+print calcul "#{3}"
+# print calcul "#{3}"
+
+# number.each do |num|
+#   if num.even?
+#     count += 1
+#   end
 # end
 
-# print "#{nombre}"
-
-# n = 4
-
-# n = n + 1
-
-# print n.even?
-
-#
-
-# print 'Merci de renseigner vote nom : '
-# name = gets.chomp
-# print "Bonjour #{name}"
-
-print 'Entrez votre nom : '
-last_name = gets.chomp
-print 'Entrez votre prénom : '
-first_name = gets.chomp
-puts "Bonjour #{last_name} #{first_name}."
+# puts "count"
