@@ -1,2 +1,4 @@
-puts "hello world!".length
-puts  "Bonjour" "Aurevoir".length
+
+puts "Hello World!".reverse
+puts "lehciM".reverse
+# Inverser une chaine

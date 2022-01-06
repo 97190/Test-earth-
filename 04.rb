@@ -36,3 +36,4 @@ print calcul "#{3}"
 # end
 
 # puts "count"
+# Pair ou impair

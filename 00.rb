@@ -6,3 +6,5 @@ for n in "a".."z"
 print "#{n}"
 end
 print "\n"
+
+# l'alphabet

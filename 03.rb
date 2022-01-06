@@ -7,3 +7,4 @@ for n in ("n".."z")
 print "#{n}"
 end
 print "\n"
+# L’alphabet à partir de
