@@ -37,3 +37,9 @@ print calcul "#{3}"
 
 # puts "count"
 # Pair ou impair
+n = 18
+if n % 2 == 0
+  print "#{n} ce chiffre est pair"
+else
+  print "#{n} ce chiffre est impair"
+end 
