@@ -3,8 +3,9 @@
 
 # Programme avec une boucle
 for n in "a".."z"
-print "#{n}"
+    print "#{n}"
 end
+
 print "\n"
 
 # l'alphabet

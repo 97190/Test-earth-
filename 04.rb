@@ -21,13 +21,13 @@
 # puts 'pair'
 # puts 'impair'
 
- def calcul (x)
-   if x % 2 == 0
-   return "#{paire}"
-   end
- end
-print calcul "#{3}"
+#  def calcul (x)
+#    if x % 2 == 0
+#    return "#{paire}"
+#    end
+#  end
 # print calcul "#{3}"
+# # print calcul "#{3}"
 
 # number.each do |num|
 #   if num.even?
@@ -42,4 +42,4 @@ if n % 2 == 0
   print "#{n} ce chiffre est pair"
 else
   print "#{n} ce chiffre est impair"
-end 
+end
