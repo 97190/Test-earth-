@@ -3,3 +3,9 @@
 # Lors de l'affichage en console il reste des doubles quotes...
 # print "Je suis solide !\n"
 # Afficheur d'arguments
+def line (a, b)
+    enverse = "#{a}" "#{b}"
+    return "#{}"
+end
+
+get.chomp
