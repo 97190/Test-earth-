@@ -18,5 +18,13 @@
 # end
 
 
+# name = %w[Bonjour\ je\ m'appelle\ Julie [1\ 2\ 3]]
 
-5.downto(1) { |i| print "#{i} " }
+# name print [2]
+
+def hello(name = '')
+  puts "Bonjour #{name}."
+end
+
+hello('utilisateur')
+hello 

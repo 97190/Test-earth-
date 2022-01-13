@@ -1,11 +1,11 @@
-# ("a".."z").each {|n| print n, ' ' }
-# print "\n"
+# 00 l'alphabet
 
-# Programme avec une boucle
 for n in "a".."z"
     print "#{n}"
 end
 
 print "\n"
 
-# l'alphabet
+# Créer une boucle for
+# Avec un intervalle de string
+# Imprimer en console avec un retour à la ligne
