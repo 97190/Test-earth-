@@ -1,8 +1,8 @@
 # Afficheur d'arguments
 
-ARGV.each do|a|
-  puts "#{a}"
-end
+# ARGV.each do |a|
+#   puts "#{a}"
+# end
 # variable spécial ARGV
 # itération avec each et un bloc
 # imprimer le résultat en console
@@ -11,3 +11,7 @@ end
 # suis
 # olide
 # !
+
+for arg in ARGV
+  puts arg
+end
