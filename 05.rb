@@ -5,20 +5,12 @@ if ARGV[1].to_i == 0
   exit
 end
 
-resultat = ARGV[0].to_i / ARGV[1].to_i
+resultats = ARGV[0].to_i / ARGV[1].to_i
 
-puts "resultat #{resultat}"
+puts "resultat #{resultats}"
 
 reste = ARGV[0].to_i % ARGV[1].to_i
 puts "reste #{reste}"
-
-
-
-
-
-
-
-
 
 # puts 'Entrez une année : '
 # year = gets.chomp
