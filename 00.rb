@@ -1,7 +1,7 @@
 # 00 l'alphabet
 
-for n in "a".."z"
-    print "#{n}"
+for c in "a".."z"
+    print "#{c}"
 end
 
 print "\n"

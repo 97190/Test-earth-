@@ -1,11 +1,19 @@
-  def prime?(n)
-    return false if n < 2
-    return true if n == 3 || n == 2
-      if (2...n-1).any?{|i| n % i == 0}
-        false
-      else
-        true
-      end
-  end
-puts prime?(0)
-# Nombre premier
+
+require 'prime'
+
+ARGV[0].to_i.prime?
+if ARGV[0].to_i.prime?
+  puts "oui, #{ARGV[0]} est un nombre premier. "
+else
+  puts "non, #{ARGV[0]} n'est pas nombre premier. "
+end
+# num1 = 100
+# num2 = 17
+# num3 = 90
+# num4 = 29
+
+# # Printing if prime or not
+# puts num1.prime?
+# puts num2.prime?
+# puts num3.prime?
+# puts num4.prime?
