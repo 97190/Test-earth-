@@ -8,8 +8,8 @@
 lettre_demandee = ARGV[0]
 
 
-for n in "#{lettre_demandee}".."z"
-    print "#{n}"
+for c in "#{lettre_demandee}".."z"
+    print "#{c}"
 end
 
 print "\n"
