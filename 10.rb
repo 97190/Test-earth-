@@ -2,10 +2,11 @@
 require 'prime'
 
 ARGV[0].to_i.prime?
+
 if ARGV[0].to_i.prime?
-  puts "oui, #{ARGV[0]} est un nombre premier. "
+  puts "Oui, #{ARGV[0]} est un nombre premier. "
 else
-  puts "non, #{ARGV[0]} n'est pas nombre premier. "
+  puts "Non, #{ARGV[0]} n'est pas nombre premier. "
 end
 # num1 = 100
 # num2 = 17
