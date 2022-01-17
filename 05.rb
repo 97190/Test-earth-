@@ -1,7 +1,10 @@
 
 # Divisions
-# Ne sais pas
-# number = 100
+
+ARGV1.to_i
+ARGV2.to_i
+
+if ar
 
 
 # puts 'Entrez une année : '
