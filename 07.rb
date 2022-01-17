@@ -5,12 +5,12 @@ if ARGV[0].class == NilClass
 end
 
 if ARGV[0].to_i.to_s == ARGV[0]
-  puts "Erreur"
+  puts "Erreur !"
   exit
 end
 
 if ARGV.count > 1
-  puts "Erreur"
+  puts "Erreur !"
   exit
 end
 
