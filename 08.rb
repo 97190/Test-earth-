@@ -2,7 +2,7 @@
 # Puissance d’un nombre
 
 if ARGV[1].to_i < 0
-  puts "erreur"
+  puts "Erreur"
   exit
 end
 
