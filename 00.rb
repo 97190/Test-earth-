@@ -1,10 +1,10 @@
 # 00 l'alphabet
 
-for c in "a".."z"
-    print "#{c}"
-end
+# for c in "a".."z"
+#     print "#{c}"
+# end
 
-print "\n"
+# print "\n"
 
 # Créer une boucle for
 # Avec un intervalle de string
